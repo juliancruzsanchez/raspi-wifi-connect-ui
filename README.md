@@ -12,6 +12,5 @@ rm -rf raspi-wifi-connect-ui
 git clone https://github.com/juliancruzsanchez/raspi-wifi-connect-ui.git
 mv -f raspi-wifi-connect-ui/* ./
 rm -rf raspi-wifi-connect-ui
-
  
 ```
