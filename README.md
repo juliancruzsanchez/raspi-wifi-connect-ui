@@ -10,6 +10,7 @@ cd /usr/local/share/wifi-connect
 cp ui ui.old
 rm ui
 git clone https://github.com/juliancruzsanchez/raspi-wifi-connect-ui.git
-mv raspi-wifi-connect-ui ui
-
+mv -rf raspi-wifi-connect-ui ui
+cd ui
+http-server
 ```
